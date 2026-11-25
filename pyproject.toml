@@ -1,0 +1,11 @@
+[project]
+name = "final250-dihedral"
+version = "0.1.0"
+description = "The codebase for Kyle, Aerin, and Sohini's CHEM 250 final project involving calculating the dihedral energy of several molecules"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fairchem-core>=2.26.0",
+    "pandas>=3.1.1",
+    "pyscf>=2.15.1",
+]
